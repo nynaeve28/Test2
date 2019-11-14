@@ -1,0 +1,19 @@
+Login Test for Walmart.com
+Create Account and Login
+Some e-commerce websites allow you to purchase an item as a guest, i.e. without the need to create an account, and then an optional step to create an account when an order is placed.
+
+When an account is created, the user can log in at any stage during a purchasing journey. It is important that we test all these variations along the user journey when testing e-commerce websites.
+
+Purchase an item as a guest – If the site permits, test that you can purchase an item without having to create an account.
+
+Existing and new accounts – purchase an item with an existing account and with a newly created account.
+
+Create an account and log in before purchase – this is to test that the item you purchase gets added and connected to the correct account. Also, you should not be prompted to log in again once you have already been logged in.
+
+Login redirects – check the behavior of login feature on different pages. Some sites redirect the user back to the same page where they clicked the login link and some sites redirect the user to the accounts pages. This should be tested thoroughly.
+
+
+ 
+Login session – when you log in check that you stay logged in as you browse products. Also, you need to test the behavior when the user doesn’t interact with the site for some time. Will the session expire after a period of time? Make sure the user has actually been logged out after the session times out.
+
+Login and Logout – when you are logged in, log out and make sure you are logged out and that you cannot access any of the accounts pages.
